@@ -1,0 +1,21 @@
+/* My Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+.font-title {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-desc {
+    font-family: "Open Sans", sans-serif;
+}
+
+#intro-example {
+    height: 400px;
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+    #intro-example {
+        height: 600px;
+    }
+}
